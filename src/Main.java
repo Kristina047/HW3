@@ -10,6 +10,15 @@ public class Main {
             System.out.println("Ты несовершеннолетний, нужно немного подождать.");
         }
 
+        System.out.println("Задача 2");
+        int temperature = 6;
+        if (temperature < 5) {
+            System.out.println("На улице холодно,нужно надеть шапку.");
+        } else {
+            System.out.println("На улице тепло, можно идти без шапки!");
+        }
+
+
 
     }
 }
