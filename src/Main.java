@@ -54,16 +54,29 @@ public class Main {
 
         System.out.println("Задача 6");
 
-        int place =103;
+        int place = 105;
         if (place >= 1 && place <= 60) {
             System.out.println("В вагоне имеются сидячие места.");
+        } else if (place >= 61 && place <= 102) {
+            System.out.println("В вагоне имеются стоячие места.");
+        } else {
+            System.out.println("В вагоне места отсутствуют.");
+
         }
-           else if (place >= 61 && place <= 102) {
-                System.out.println("В вагоне имеются стоячие места.");
-            } else {
-                System.out.println("В вагоне места отсутствуют.");
+        System.out.println("Задача 7");
+        int one = 5;
+        int two = -4;
+        int three = -9;
+        if (one > two && one > three) {
+            System.out.println("Число " + one + " больше остальных");
+        } else if (two > one && two > three) {
+            System.out.println("Число " + two + " больше остальных");
+        } else {
+            System.out.println(" Число " + three + " больше остальных");
+            {
 
             }
         }
     }
+}
 
