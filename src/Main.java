@@ -26,16 +26,16 @@ public class Main {
         System.out.println("Задача 4");
         int years = 25;
         if (years >= 2 && years <= 6) {
-            System.out.println(" Если человеку от 2 до 6 лет, то ему нужно ходить в детский сад.")   ;
+            System.out.println(" Если человеку от 2 до 6 лет, то ему нужно ходить в детский сад.");
         }
         if (years >= 7 && years <= 17) {
-            System.out.println("  Если человеку от 7 до 17 лет, то ему нужно ходить в школу")   ;
+            System.out.println("  Если человеку от 7 до 17 лет, то ему нужно ходить в школу");
         }
         if (years >= 18 && years <= 24) {
-            System.out.println("Если человеку больше 18 лет, но меньше 24, то его место в университете.")   ;
+            System.out.println("Если человеку больше 18 лет, но меньше 24, то его место в университете.");
         }
-        if (years >24) {
-            System.out.println("Если человеку больше 24, то ему пора ходить на работу.")   ;
+        if (years > 24) {
+            System.out.println("Если человеку больше 24, то ему пора ходить на работу.");
         }
 
 
@@ -52,9 +52,18 @@ public class Main {
         }
 
 
+        System.out.println("Задача 6");
 
+        int place =103;
+        if (place >= 1 && place <= 60) {
+            System.out.println("В вагоне имеются сидячие места.");
+        }
+           else if (place >= 61 && place <= 102) {
+                System.out.println("В вагоне имеются стоячие места.");
+            } else {
+                System.out.println("В вагоне места отсутствуют.");
 
-
-
+            }
+        }
     }
-}
+
